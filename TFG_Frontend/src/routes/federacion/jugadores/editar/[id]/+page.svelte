@@ -203,7 +203,7 @@
       <span>Teléfono *</span>
       <input
         class="input"
-        type="text"
+        type="number"
         name="telefono"
         id="telefono"
         placeholder="Teléfono"
@@ -281,7 +281,7 @@
       <span>Código Postal *</span>
       <input
         class="input"
-        type="text"
+        type="number"
         name="CP"
         id="CP"
         placeholder="Ej: 50001"

@@ -141,7 +141,7 @@
       <span>Teléfono *</span>
       <input
         class="input"
-        type="text"
+        type="number"
         name="telefono"
         id="telefono"
         placeholder="Teléfono"
