@@ -11,8 +11,8 @@ services:
       - MONGO_INITDB_DATABASE=${MONGO_DB}
     volumes:
       - ./data/db:/data/db
-    ports:
-      - 27017:27017
+    # ports:
+    #   - 27017:27017
     restart: always
   backend:
     image: node:lts
